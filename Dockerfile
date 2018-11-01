@@ -1,4 +1,4 @@
-FROM bit:5000/deepo_9
+FROM ufoym/deepo:caffe-py27
 ADD opencv-3.2.0.zip /tmp/
 ADD FindCUDA.cmake /tmp/
 ADD OpenCVDetectCUDA.cmake /tmp/
